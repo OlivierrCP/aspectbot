@@ -15,7 +15,7 @@ var randomimage = images[Math.floor(Math.random() * images.length)];
 
 fs.readdirSync(folder).forEach(function(file) { //Read the folder and add each file that is found,
     images.push(file); //Should be added to the image array
-
+});
 var eightball = [ 
     "yes!",
     "no...",
