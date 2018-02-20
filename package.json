@@ -1,14 +1,13 @@
 {
-  "name": "aspectbot",
+  "name": "Test",
+  "description": "Test",
   "version": "1.0.0",
-  "description": "aspect leaks bot",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
-  "author": "Olivierr",
-  "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.3.0"
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
   }
 }
